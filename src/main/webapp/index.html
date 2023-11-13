@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JAVA CHALLENGE API</h1>
+    <h2>API para registro de acidentes para o site Guinchei</h2>
+    <h3>Endpoints:</h3>
+    <!-- GET http://localhost:8080/JavaChallenge/api/caso (Listar todas os casos)
+    GET http://localhost:8080/JavaChallenge/api/caso/query?nome=<nome> (Pesquisar por Nome
+    GET http://localhost:8080/JavaChallenge/api/caso/<id> (Buscar caso pelo id)
+    POST http://localhost:8080/JavaChallenge/api/caso (Cadastrar um caso)
+    PUT http://localhost:8080/JavaChallenge/api/caso/<id> (Atualizar um caso)
+    DELETE http://localhost:8080/JavaChallenge/api/caso/<id> (Deletar um caso)
+    -->
+    <ul id="lista">
+      <li>
+        <b>GET</b> -
+        <i
+          ><a href="http://localhost:8080/JavaChallenge/api/caso"
+            >http://localhost:8080/JavaChallenge/api/caso</a
+          ></i
+        >
+      </li>
+      <li>
+        <b>GET</b> -
+        <i
+          >http://localhost:8080/JavaChallenge/api/caso/query?nome=&lt;nome&gt;</i
+        >
+      </li>
+      <li>
+        <b>GET</b> -
+        <i>http://localhost:8080/JavaChallenge/api/caso/&lt;id&gt;</i>
+      </li>
+      <li>
+        <b>POST</b> - <i>http://localhost:8080/JavaChallenge/api/caso</i>
+      </li>
+      <li>
+        <b>PUT</b> -
+        <i>http://localhost:8080/JavaChallenge/api/caso/&lt;id&gt;</i>
+      </li>
+      <li>
+        <b>DELETE</b> -
+        <i>http://localhost:8080/JavaChallenge/api/caso/&lt;id&gt;</i>
+      </li>
+    </ul>
+  </body>
+</html>

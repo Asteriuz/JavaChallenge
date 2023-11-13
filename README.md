@@ -29,15 +29,31 @@
 
 <!-- endpoints -->
 <h2 name="endpoints">🌐 Endpoints</h2>
-  
-| Método | Endpoint | Descrição |
-| ------ | -------- | --------- |
-| GET | /api/casos | Listar todos os casos |
-| GET | /api/casos/query?nome=&lt;nome&gt; | Pesquisar por Nome |
-| GET | /api/casos/&lt;id&gt; | Buscar caso pelo id |
-| POST | /api/casos | Cadastrar um caso |
-| PUT | /api/casos/&lt;id&gt; | Atualizar um caso |
-| DELETE | /api/casos/&lt;id&gt; | Deletar um caso |
+
+### ❗ PS: Lembre sempre do /JavaChallenge antes de cada endpoint
+
+### 🚘 Usuário
+
+| Método | Endpoint                     | Descrição             |
+| ------ | ---------------------------- | --------------------- |
+| GET    | /api/user                    | Listar todos os users |
+| GET    | /api/user/&lt;id&gt;         | Buscar user pelo id   |
+| GET    | /api/user/query?nome=Augusto | Buscar user pelo nome |
+| POST   | /api/user                    | Cadastrar um user     |
+| PUT    | /api/user/&lt;id&gt;         | Atualizar um user     |
+| DELETE | /api/user/&lt;id&gt;         | Deletar um user       |
+
+### 📝 Casos
+
+| Método | Endpoint                        | Descrição                         |
+| ------ | ------------------------------- | --------------------------------- |
+| GET    | /api/caso                       | Listar todos os casos             |
+| GET    | /api/caso/&lt;id&gt;            | Buscar caso pelo id               |
+| GET    | /api/caso/user/&lt;nome&gt;     | Buscar casos pelo nome do usuário |
+| GET    | /api/caso/status/&lt;status&gt; | Buscar casos pelo status          |
+| POST   | /api/caso                       | Cadastrar um caso                 |
+| PUT    | /api/caso/&lt;id&gt;            | Atualizar um caso                 |
+| DELETE | /api/caso/&lt;id&gt;            | Deletar um caso                   |
 
 <h2 name="autores">✍️ Integrantes</h2>
 <table>
